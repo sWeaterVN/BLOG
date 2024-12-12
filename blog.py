@@ -83,3 +83,6 @@ if ifo:
 if img:
     st.header("Image:")
     st.warning("No image found!", icon="😭")
+with st.sidebar:
+    st.markdown("Nhân SEGMA fact summary!")
+    st.image("deptrai.jpg", width=600)
