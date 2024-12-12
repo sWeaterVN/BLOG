@@ -85,4 +85,4 @@ if img:
     st.warning("No image found!", icon="😭")
 with st.sidebar:
     st.markdown("Nhân SEGMA fact summary!")
-    st.image("deptrai.jpg", width=600)
+    st.image("deptrai.jpg", width=400)
