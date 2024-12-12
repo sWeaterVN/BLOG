@@ -14,7 +14,7 @@ if 'cmm' not in st.session_state:
 #Button
 c1, c2 = st.columns(2)
 with c1:
-    st.image("D:\Python_streamlit\me.png", width=200)
+    st.image("me.png", width=200)
 with c2:
     st.title("sWeater's blog")
     st.write("Yêu lý bí tin:DD")
@@ -61,7 +61,7 @@ if st.session_state.ach:
     st.header("Post:")
     c1, c2 = st.columns(2)
     with c1:
-        st.image("D:\Python_streamlit\post.png", width=400)
+        st.image("post.png", width=400)
     with c2:
         st.write("10:22 PM - 18/10/2024")
         st.markdown("Deadline 12h đêm nay và tôi chưa biết nên làm gì, nhưng không sao vì tôi là một sinh viên thư giãn=)")
@@ -71,7 +71,7 @@ if st.session_state.ach:
 if bth:
     st.header("About me:")
     st.write("I'm just a chill guy:D")
-    st.image("D:\Python_streamlit\chillguy.jpg", width=600)
+    st.image("chillguy.jpg", width=600)
 if ifo:
     st.header("Information:")
     st.write("🌏 Sống tại: Kon Tum, Viet Nam")
