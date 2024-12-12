@@ -88,4 +88,4 @@ with st.sidebar:
     st.image("deptrai.jpg", width=400)
     v = st.button("Đây là vợ Nhân!!!")
     if v:
-        st.warning("Hệ thống quá tải vì vợ Nhân quá cuti", icon="⚠️⚠️⚠️")
+        st.warning("Hệ thống quá tải vì vợ Nhân quá cuti", icon="⚠️")
