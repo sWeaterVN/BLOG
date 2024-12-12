@@ -1,4 +1,6 @@
 import streamlit as st
+
+st.set_page_config(page_title="anh Nhân đẹp trai", page_icon=":skull:", layout="centered")
 st.warning("Cảnh báo! chủ page bị đẹp trai", icon="⚠️")
 #setup_session_state_variable
 if "l" not in st.session_state:
