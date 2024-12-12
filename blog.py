@@ -4,9 +4,9 @@ st.set_page_config(page_title="anh Nhân đẹp trai", page_icon=":skull:", layo
 st.warning("Cảnh báo! chủ page bị đẹp trai", icon="⚠️")
 #setup_session_state_variable
 if "l" not in st.session_state:
-    st.session_state.l=0
+    st.session_state.l=78
 if "f" not in st.session_state:
-    st.session_state.f=0
+    st.session_state.f=23
 if "pressed" not in st.session_state:
     st.session_state.pressed = False
 if "ach" not in st.session_state:
