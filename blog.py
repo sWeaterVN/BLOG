@@ -86,6 +86,8 @@ if img:
 with st.sidebar:
     st.markdown("Nhân SEGMA fact summary!")
     st.image("deptrai.jpg", width=400)
+    st.write("")
     v = st.button("Đây là vợ Nhân!!!")
+    st.markdown("Nhấn nút để xem ảnh")
     if v:
-        st.warning("Hệ thống quá tải vì vợ Nhân quá cuti", icon="⚠️")
+        st.warning("Hệ thống đã quá tải vì vợ Nhân quá cuti", icon="⚠️")
